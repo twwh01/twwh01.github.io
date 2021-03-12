@@ -6,6 +6,24 @@
 
 <body>
 
+<!--navigation menu--> 
+<div class="topnav" id="myTopnav">
+  <a href="./index.html">Home</a>
+  <a href="./about.html">About</a>
+  <a href="./news.html">News</a>
+  <a href="./outreach.html">Outreach</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()" href="./research">Research
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="./research.html">Overview</a>
+      <a href="./research.html#Pubs">Publications</a>
+      <a href="./research.html#InvTalks">Invited talks</a>
+      <a href="./research.html#ConfPres">Conference presentations</a>
+    </div>
+  </div>
+</div>
+  
 <!--Header image.-->
 <div class="imgbox">
   <img class="center-fit" src="Images/HW-flowers.jpg" alt="Panorama looking north of Hadrian's wall across the moors">
@@ -28,6 +46,23 @@ I hope to expand into other coding languages and will try to incorporate some of
 Northumberland; credit TWWH.</p>
 </div>
 
+<script>
+/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+/*Close dropdown when user clicks outside*/
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script> 
+  
 </body>
 
 </html>

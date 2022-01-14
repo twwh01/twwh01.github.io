@@ -1,68 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="twwh01-style.css" type="text/css" rel="stylesheet">
+  <head>
+    <title>Thomas Wong Hearing</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+          <style>
+              h1 {
+                  text-align: center;
+                  padding: 20px 0 10px 0;
+              }
+              h3 {
+                  padding: 10px 0 0 0;
+              }
+          </style>
+  </head>
 
-<body>
-
-<!--navigation menu--> 
-<div class="topnav" id="myTopnav">
-  <a href="./index.html">Home</a>
-  <a href="./about.html">About</a>
-  <a href="./news.html">News</a>
-  <a href="./outreach.html">Outreach</a>
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()" href="./research">Research
-    </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="./research.html">Overview</a>
-      <a href="./research.html#Pubs">Publications</a>
-      <a href="./research.html#InvTalks">Invited talks</a>
-      <a href="./research.html#ConfPres">Conference presentations</a>
+  <body>
+    <div class="container-xl">
+      <!--navigation menu-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+          <div class="container-fluid">
+              <span class="w-100 d-lg-none d-block">
+                <!-- hidden spacer to center brand on mobile -->
+              </span>
+              <a class="navbar-brand active" aria-current="page" href="./index.html">Thomas Wong Hearing</a>
+              <div class="text-end">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              </div>
+              <div class="collapse navbar-collapse text-end" id="myNavbar">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link m-2" href="twwh01-about.html">About</a>
+                      </li>
+                      <li class="nav-item m-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <div class="container-fluid">
+                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-research.html">Overview</a></li>
+                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-research.html#Pubs">Publications</a></li>
+                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-research.html#Data">Datasets</a></li>
+                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-research.html#Comms">Popular articles</a></li>
+                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-research.html#InvTalks">Invited talks</a></li>
+                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-research.html#ConfPres">Conference presentations</a></li>
+                          </div>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link m-2" href="twwh01-outreach.html">Outreach</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link m-2" href="twwh01-teaching.html">Teaching</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link m-2" href="twwh01-contact.html">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
     </div>
-  </div>
-</div>
-  
-<!--Header image.-->
-<div class="imgbox">
-  <img class="center-fit" src="Images/HW-flowers.jpg" alt="Panorama looking north of Hadrian's wall across the moors">
-</div>
 
-<!--Main page title.-->
-<h1>Thomas Wong Hearing</h1>
+    <div class="container-xl">
+      <!--Header image.-->
+      <div style="padding: 10px 0 0 0;">
+        <img src="Images/HW-flowers.jpg" class="img-fluid rounded" alt="Panorama looking north of Hadrian's wall across the moors">
+      </div>
 
-<!--Subheading to the page title.-->
-<h2>Hello World!</h2>
+      <!--Main page title.-->
+      <div class="row" style="padding: 10px 0 10px 0;">
+        <h1>Thomas Wong Hearing</h1>
 
-<div class="para">
-<p>Welcome to my personal GitHub site: a motley collection professional information and personal ramblings. </p>
-<p>I have built this site primarily to see if I can (learning GitHub, html, and css seemed like as good a thing as any to do in 2020/21...). 
-I hope to expand into other coding languages and will try to incorporate some of my thoughts on those here as well.</p>
-</div>
+        <!--Subheading to the page title.-->
+        <h2>Hello World!</h2>
 
-<div class="ftr">
-  <p>Top image: view looking north over Hadrian's Wall near Housesteads Fort, 
-Northumberland; credit TWWH.</p>
-</div>
+        <div class="para">
+        <p>Welcome to my personal webpages on GitHub.</p>
+        <p>I built this site in 2021/22 because I wanted to:</p>
+        <ul>
+          <li>set up a personal website,</li>
+          <li>learn how Git and GitHub works, and</li>
+          <li>learn how to use HTML and CSS.</li>
+        </ul>
+        <p>I hope <i>(I think)</i> I've managed to do all three. Please <a href="./twwh01-about.html">explore</a>!</p>
+        </div>
+      </div>
 
-<script>
-/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+      <footer style="padding: 10px 2px 2px 2px;" class="text-start">
+        <div class="text-start fs-9 fw-light rounded" style="padding: 5px 5px 5px 5px; background-color: rgba(0, 0, 0, 0.1);">
+          <div class="row"><i>Top image: view looking north over Hadrian's Wall near Housesteads Fort, Northumberland.</i></div>
+        </div>
+      </footer>
+    </div>
 
-/*Close dropdown when user clicks outside*/
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
-</script> 
-  
-</body>
+    <script>
+      /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      /*Close dropdown when user clicks outside*/
+      window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains('show')) {
+            myDropdown.classList.remove('show');
+          }
+        }
+      }
+    </script> 
+    
+  </body>
 
 </html>

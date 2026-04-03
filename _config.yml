@@ -1,0 +1,11 @@
+lsi: false
+safe: true
+source: twwh01.github.io
+incremental: false
+highligher: rouge
+theme: jekyll-theme-cayman
+gist:
+  noscritp: false
+kramdown:
+  mathengine: mathjax
+  syntax_highligher: rouge

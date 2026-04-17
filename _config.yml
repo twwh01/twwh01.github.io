@@ -1,0 +1,15 @@
+title: Thomas Wong Hearing
+email: twonghearing@gmail.com
+description: >-
+  Personal webpages for Thomas Wong Hearing serving as a portfolio of
+  research work and higher education teaching.
+domain: "twwh01.github.io"
+url: "https://twwh01.github.io"
+baseurl: ""
+github_username: twwh01
+
+# theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-feed

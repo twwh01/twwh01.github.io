@@ -1,3 +1,4 @@
 # twwh01.github.io
 # Personal website for Thomas Wong Hearing
-In process of migrating to a GitHub pages/Jekyll site. 
+
+dev branch being used to develop new site using Jekyll for GitHub pages

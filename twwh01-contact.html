@@ -1,73 +1,8 @@
-﻿<!--HTML file for TWWH website contact page.-->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Thomas Wong Hearing</title>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-          <style>
-              h1 {
-                  text-align: center;
-                  padding: 20px 0 10px 0;
-              }
-              h3 {
-                  padding: 10px 0 0 0;
-              }
-          </style>
-  </head>
-  <body>
-    <div class="container-xl">
-      <!--navigation menu-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
-          <div class="container-fluid">
-              <span class="w-100 d-lg-none d-block">
-                  <!-- hidden spacer to center brand on mobile -->
-              </span>
-              <a class="navbar-brand" href="index.html">Thomas Wong Hearing</a>
-              <div class="text-end">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-              </div>
-              <div class="collapse navbar-collapse text-end" id="myNavbar">
-                  <ul class="navbar-nav ms-auto">
-                      <li class="nav-item">
-                          <a class="nav-link m-2" href="twwh01-about.html">About</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link m-2" href="twwh01-research.html">Research</a>                            
-                      </li>
-                      <li class="nav-item m-2 dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Outputs</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <div class="container-fluid">
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-outputs.html">Overview</a></li>
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-outputs.html#Pubs">Peer-reviewed papers</a></li>
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-outputs.html#Data">Datasets</a></li>
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-outputs.html#Comms">Popular articles</a></li>
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-outputs.html#InvTalks">Invited talks</a></li>
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="./twwh01-outputs.html#ConfPres">Conference presentations</a></li>
-                          </div>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link m-2" href="twwh01-outreach.html">Outreach</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link m-2" href="twwh01-teaching.html">Teaching</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link m-2 active" aria-current="page" href="twwh01-contact.html">Contact</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </nav>
-    </div>
+---
+layout: default
+nav_active: contact
+---
 
-    <div class="container-xl">      
       <div class="row" style="padding: 10px 0 10px 0;">
         <div><!--</div> class="para col-lg-8">-->
           <h1 style="text-align: start;">Contact me</h1>
@@ -76,7 +11,7 @@
             <div class="col-sm-2">
               <figure class="figure">
                 <img src="./Images/SnailMail.png"
-                class="img-fluid float-start" 
+                class="img-fluid float-start"
                 alt="">
                 <!--<figcaption class="figure-caption" style="text-align: center;">
                 </figcaption>-->
@@ -91,28 +26,8 @@
               UK
             </p>
             </div>
-          </div>          
+          </div>
           <h2>By email</h2>
-          <p>twonghearing [at] gmail [dot] com</p>          
+          <p>twonghearing [at] gmail [dot] com</p>
         </div>
       </div>
-    </div>
-
-    <script>
-      /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-
-      /*Close dropdown when user clicks outside*/
-      window.onclick = function(e) {
-        if (!e.target.matches('.dropbtn')) {
-        var myDropdown = document.getElementById("myDropdown");
-          if (myDropdown.classList.contains('show')) {
-            myDropdown.classList.remove('show');
-          }
-        }
-      }
-    </script>    
-  </body>
-</html>

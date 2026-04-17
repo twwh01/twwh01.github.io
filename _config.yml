@@ -8,6 +8,8 @@ url: "https://twwh01.github.io"
 baseurl: ""
 github_username: twwh01
 
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
+
 plugins:
   - jekyll-feed
